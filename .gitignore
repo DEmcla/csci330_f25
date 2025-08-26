@@ -21,6 +21,8 @@ Thumbs.db
 instructor-notes.md
 
 # Instructor-only resources (CRITICAL - NEVER COMMIT)
+instructor/
+/instructor/**
 instructor-resources/
 /instructor-resources/**
 instructor-*/
