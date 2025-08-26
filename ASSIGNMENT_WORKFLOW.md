@@ -6,7 +6,7 @@
 
 | Directory | Purpose | Who Modifies |
 |-----------|---------|--------------|
-| `/assignment-templates/` | Starter code templates | Instructor only |
+| `/modules/module-XX_chX/assignment-template/` | Starter code templates | Instructor only |
 | `/assignments/CSCI330_Your_Name/` | Your completed work | You |
 | `/modules/module-XX_chX/assignments.md` | Assignment descriptions | Read only |
 
@@ -17,7 +17,7 @@
    modules/module-01_ch1/assignments.md
               ↓
 2. COPY Template
-   assignment-templates/HW_01/ ──copy──> assignments/CSCI330_John_Doe/week01/
+   modules/module-01_ch1/assignment-template/ ──copy──> assignments/CSCI330_John_Doe/week01/
               ↓
 3. IMPLEMENT Solution
    Edit files in your directory
@@ -45,7 +45,7 @@ mkdir -p assignments/CSCI330_FirstName_LastName
 git checkout -b week01-assignment
 
 # b. Copy template
-cp -r assignment-templates/HW_01/* assignments/CSCI330_FirstName_LastName/week01/
+cp -r modules/module-01_ch1/assignment-template/* assignments/CSCI330_FirstName_LastName/week01/
 
 # c. Work on your solution
 cd assignments/CSCI330_FirstName_LastName/week01/
@@ -70,13 +70,13 @@ git push origin week01-assignment
 ### ❌ DON'T: Modify templates directly
 ```bash
 # WRONG - Never edit template files
-vim assignment-templates/HW_01/src/main.cpp
+vim modules/module-01_ch1/assignment-template/src/main.cpp
 ```
 
 ### ✅ DO: Copy templates first
 ```bash
 # RIGHT - Copy then edit
-cp -r assignment-templates/HW_01/* assignments/CSCI330_Your_Name/week01/
+cp -r modules/module-01_ch1/assignment-template/* assignments/CSCI330_Your_Name/week01/
 vim assignments/CSCI330_Your_Name/week01/src/main.cpp
 ```
 
@@ -122,7 +122,7 @@ Before creating your Pull Request:
 ## 🔗 Quick Links
 
 - **Assignment Descriptions**: `/modules/module-XX_chX/assignments.md`
-- **Starter Templates**: `/assignment-templates/HW_XX/`
+- **Starter Templates**: `/modules/module-XX_chX/assignment-template/`
 - **Submission Guide**: `/assignments/README.md`
 - **Git Help**: `/reference/git-commands.md`
 - **Environment Setup**: `/setup/DEVELOPMENT_SETUP.md`

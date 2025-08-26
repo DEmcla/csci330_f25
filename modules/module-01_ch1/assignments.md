@@ -188,7 +188,7 @@ Make sure all outputs are correct!
 ## 📝 Assignment Submission
 
 ### Quick Start
-1. **Get the template**: Copy from `assignment-templates/HW_01/`
+1. **Get the template**: Copy from `modules/module-01_ch1/assignment-template/`
 2. **Complete the problems**: Follow the detailed structure above
 3. **Submit via Git**: Create Pull Request with your solutions
 
@@ -198,7 +198,7 @@ Make sure all outputs are correct!
 ```bash
 # Copy template to your personal directory
 mkdir -p assignments/CSCI330_FirstName_LastName/week01
-cp -r assignment-templates/HW_01/* assignments/CSCI330_FirstName_LastName/week01/
+cp -r modules/module-01_ch1/assignment-template/* assignments/CSCI330_FirstName_LastName/week01/
 
 # Navigate to your assignment directory
 cd assignments/CSCI330_FirstName_LastName/week01
@@ -247,12 +247,12 @@ git push -u origin week01-submission
 ```
 
 #### Step 4: Canvas Submission
-**🎯 REQUIRED**: Submit your Pull Request link to Canvas in this format:
+**🎯 REQUIRED**: Submit the link to your completed assignment directory on Canvas:
 ```
-https://github.com/YourUsername/csci330_f25/pull/[PR_NUMBER]
+https://github.com/YourUsername/csci330_f25/tree/main/assignments/CSCI330_FirstName_LastName/week01
 ```
 
-**Example**: `https://github.com/jsmith/csci330_f25/pull/1`
+**Example**: `https://github.com/jsmith/csci330_f25/tree/main/assignments/CSCI330_John_Smith/week01`
 
 ### Assessment Criteria
 - [ ] All 9 problems completed with working solutions
@@ -260,12 +260,12 @@ https://github.com/YourUsername/csci330_f25/pull/[PR_NUMBER]
 - [ ] Clear README with compilation notes and sample outputs  
 - [ ] Code compiles without errors and warnings
 - [ ] Professional Git workflow (meaningful commits, clean PR)
-- [ ] Canvas submission includes correct PR link
+- [ ] Canvas submission includes correct GitHub directory link
 
 ### Time Expectation
 **Total: 2.25 hours** for all problem sets. If taking significantly longer, ask for help during office hours!
 
 ### Need Help?
-- 📋 **Assignment template**: `/assignment-templates/HW_01/`
+- 📋 **Assignment template**: `modules/module-01_ch1/assignment-template/`
 - 🔄 **Workflow guide**: `/ASSIGNMENT_WORKFLOW.md`
 - 🆘 **Git help**: `/reference/git-commands.md`

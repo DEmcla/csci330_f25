@@ -4,7 +4,7 @@
 Complete the problem sets from Module 1 Chapter 1, demonstrating basic C++ programming concepts including program structure, functions, and control flow.
 
 ## Related Module
-📚 **[Module 01 - Chapter 1: Up and Running](../../modules/module-01_ch1/)**
+📚 **[Module 01 - Chapter 1: Up and Running](../)**
 
 ## Assignment Requirements
 Complete all problem sets as detailed in the module assignments:
@@ -48,7 +48,7 @@ CSCI330_FirstName_LastName/
 ```bash
 # Copy template to your directory first
 mkdir -p assignments/CSCI330_FirstName_LastName/week01
-cp -r assignment-templates/HW_01/* assignments/CSCI330_FirstName_LastName/week01/
+cp -r modules/module-01_ch1/assignment-template/* assignments/CSCI330_FirstName_LastName/week01/
 
 # Navigate to your directory
 cd assignments/CSCI330_FirstName_LastName/week01
@@ -81,19 +81,19 @@ git push -u origin week01-submission
 ```
 
 ### Step 3: Submit to Canvas
-**Canvas Submission**: Submit the link to your Pull Request in this format:
+**Canvas Submission**: Submit the link to your completed assignment directory:
 ```
-https://github.com/YourUsername/csci330_f25/pull/[PR_NUMBER]
+https://github.com/YourUsername/csci330_f25/tree/main/assignments/CSCI330_FirstName_LastName/week01
 ```
 
-**Example**: `https://github.com/jsmith/csci330_f25/pull/1`
+**Example**: `https://github.com/jsmith/csci330_f25/tree/main/assignments/CSCI330_John_Smith/week01`
 
 ## Grading Criteria
 - [ ] All problem sets completed with working solutions
 - [ ] Proper file organization and naming convention
 - [ ] Clear compilation notes and sample outputs
 - [ ] Code compiles without errors
-- [ ] Pull Request submitted correctly
+- [ ] Canvas submission with correct GitHub directory link
 - [ ] Professional Git commit messages
 
 ## Time Expectation

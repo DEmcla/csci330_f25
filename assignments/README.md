@@ -4,7 +4,7 @@ This directory contains student assignment submissions using a professional Git 
 
 ## 📁 Related Directories
 
-- **`/assignment-templates/`** - Starter code for each assignment (copy from here)
+- **`/modules/module-XX_chX/assignment-template/`** - Starter code for each assignment (copy from here)
 - **`/assignments/`** - Student submissions (your work goes here)
 - **`/setup/test_integration.sh`** - Test your development environment
 - **See also**: Each module's `assignments.md` for specific requirements
@@ -71,7 +71,7 @@ For each assignment, follow these steps:
    - Copy assignment template to your directory:
      ```bash
      # IMPORTANT: Replace FirstName_LastName with your actual name
-     cp -r assignment-templates/HW_01/* assignments/CSCI330_FirstName_LastName/week01/
+     cp -r modules/module-01_ch1/assignment-template/* assignments/CSCI330_FirstName_LastName/week01/
      ```
    - Navigate to your working directory:
      ```bash

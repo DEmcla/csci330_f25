@@ -4,7 +4,7 @@
 This assignment introduces you to basic C++ programming concepts including output streams, input handling, and string manipulation.
 
 ## Related Module
-📚 **[Module 01 - Chapter 1: Introduction to C++](../../modules/module-01_ch1/)**
+📚 **[Module 02 - Chapter 2: Control Structures](../)**
 
 ## Learning Objectives
 - Understand basic C++ program structure
