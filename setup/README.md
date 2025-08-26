@@ -1,188 +1,48 @@
 # Development Environment Setup - CSCI 330
 
-**⚙️ Professional C++ Development Environment**
+## 🚀 Quick Start Guide
 
-This directory contains everything needed to set up your complete C++ development environment using industry-standard tools.
+### Setup Order (Follow These Steps)
+1. **[📋 Development Setup Guide](DEVELOPMENT_SETUP.md)** - Complete installation instructions
+2. **[📖 Git Workflow Guide](GIT_WORKFLOW.md)** - Learn the submission process
+3. **[✅ Test Your Setup](test_integration.sh)** - Verify everything works
 
----
+### Additional Resources
+- **[🛠️ Docker Troubleshooting](docker_troubleshooting.md)** - Common issues and solutions
+- **[📝 Git Commands Reference](../reference/git-commands.md)** - Quick Git reference
 
-## 🚀 Quick Setup (New Students)
+## What's In This Directory?
 
-### **Complete Setup Process**
-1. **📋 [Development Environment Setup](DEVELOPMENT_SETUP.md)** - **START HERE**
-   - Install Docker Desktop and VS Code
-   - Configure C++ development environment
-   - Set up Git and GitHub integration
-   - **Time**: 30-45 minutes
+| File | Purpose |
+|------|---------|
+| `DEVELOPMENT_SETUP.md` | Complete setup instructions for Docker, VS Code, and Git |
+| `GIT_WORKFLOW.md` | Professional Git workflow for assignments |
+| `docker-compose.yml` | Docker container configuration |
+| `Dockerfile` | Container definition with C++ tools |
+| `test_integration.sh` | Script to verify your setup |
+| `docker_troubleshooting.md` | Solutions for common Docker issues |
 
-2. **📖 [Git Workflow Guide](GIT_WORKFLOW.md)** - **CRITICAL FOR SUBMISSIONS**
-   - Professional Pull Request workflow
-   - Branching and submission strategies
-   - Academic integrity guidelines
-   - **Time**: 15-20 minutes to read, lifetime to master
+## Quick Commands
 
-3. **✅ [Environment Verification](test_integration.sh)** - **VALIDATE YOUR SETUP**
-   ```bash
-   cd setup/
-   ./test_integration.sh
-   ```
-   All tests should pass (Docker daemon test may fail if Docker not running)
-
----
-
-## 🛠️ Setup Components
-
-### **Core Development Tools**
-- **🐳 [Docker Environment](docker-compose.yml)** - Consistent C++ environment
-- **⚙️ [Docker Configuration](Dockerfile)** - Container definition with all tools
-- **💻 VS Code Integration** - Professional IDE with debugging support
-- **📝 Git Workflow** - Industry-standard version control
-
-### **Included Development Stack**
-- **Compiler**: g++ with modern C++ support (C++17/20)
-- **Build System**: CMake for professional project management
-- **Debugger**: GDB with VS Code integration
-- **Testing**: Catch2 testing framework
-- **Memory Tools**: Valgrind and Address Sanitizer
-- **Code Quality**: clang-format for consistent styling
-
----
-
-## 🎯 Development Approaches
-
-### **🌟 Recommended: Docker + VS Code**
-- **Pros**: Consistent environment, professional debugging, integrated tools
-- **Best for**: Most students, cross-platform consistency
-- **Setup Guide**: [DEVELOPMENT_SETUP.md](DEVELOPMENT_SETUP.md)
-
-### **⚡ Alternative: Docker CLI**  
-- **Pros**: Lightweight, fast startup, Linux expertise building
-- **Best for**: Command-line enthusiasts, resource-constrained systems
-- **Quick Start**:
-  ```bash
-  docker-compose up -d cpp-dev
-  docker-compose exec cpp-dev bash
-  ```
-
-### **🖥️ Local Installation**
-- **Pros**: No Docker overhead, direct system access
-- **Cons**: Platform-specific issues, inconsistent environments
-- **Not recommended** unless specific requirements
-
----
-
-## 📋 Environment Features
-
-### **Professional Debugging**
-- **Visual debugging** with breakpoints and variable inspection
-- **Memory visualization** for pointer and array operations
-- **Step-through debugging** for understanding program flow
-- **Integrated terminal** for quick testing
-
-### **Build and Test Integration**
-- **CMake integration** for professional project structure
-- **Automated testing** with Catch2 framework
-- **Continuous compilation** with file watching
-- **Error highlighting** and IntelliSense support
-
-### **Git Integration**
-- **VS Code Git interface** for visual version control
-- **Pull Request workflow** built into development process
-- **Commit history visualization** and diff tools
-- **Branch management** for feature development
-
----
-
-## 🔧 Common Setup Issues
-
-### **Docker Problems**
-- **Windows**: Ensure WSL2 is enabled and Docker Desktop has proper permissions
-- **macOS**: Grant Docker Desktop access to directories and verify correct architecture (Intel vs Apple Silicon)
-- **Linux**: Ensure user is in docker group and Docker daemon is running
-
-### **VS Code Integration**
-- **Extensions**: Ensure C++ Extension Pack and Remote Containers are installed
-- **Container Connection**: Use "Reopen in Container" command for Docker integration
-- **IntelliSense**: May need to rebuild container or restart VS Code
-
-### **Git Configuration**
-- **Identity**: Set up course-specific Git identity with proper name format
-- **Authentication**: Configure GitHub access tokens or SSH keys
-- **Remotes**: Ensure both origin (your fork) and upstream (course repo) are configured
-
----
-
-## 🆘 Troubleshooting Resources
-
-### **Setup Issues**
-- **🛠️ [Docker Troubleshooting](docker_troubleshooting.md)** - Common Docker problems and solutions
-- **📖 [Development Setup Guide](DEVELOPMENT_SETUP.md)** - Step-by-step setup with troubleshooting
-- **🏢 Office Hours** - Get help with environment-specific issues
-
-### **Usage Issues**  
-- **📋 [Git Commands Reference](../reference/git-commands.md)** - Essential Git workflow commands
-- **🔍 [Course References](../reference/)** - Quick references and troubleshooting guides
-
-### **Emergency Recovery**
 ```bash
-# Nuclear option: completely reset environment
-docker-compose down -v
-docker system prune -af
-docker-compose build --no-cache
+# Start development environment
 docker-compose up -d cpp-dev
+
+# Enter container
+docker-compose exec cpp-dev bash
+
+# Test your setup
+./test_integration.sh
+
+# Stop container
+docker-compose down
 ```
 
----
-
-## ✅ Verification Checklist
-
-Before starting coursework, ensure all these work:
-
-### **Environment Tests**
-- [ ] **Docker**: Container starts and runs correctly
-- [ ] **VS Code**: Opens project in container successfully
-- [ ] **Compilation**: Can compile and run "Hello World" program
-- [ ] **Debugging**: Can set breakpoints and step through code
-- [ ] **Testing**: Can run unit tests with Catch2
-
-### **Git Workflow Tests**
-- [ ] **Repository**: Can clone course repository
-- [ ] **Branches**: Can create and switch between branches
-- [ ] **Commits**: Can add, commit, and push changes
-- [ ] **Pull Requests**: Can create PR on GitHub
-- [ ] **Integration**: test_integration.sh passes
-
-### **Development Tests**
-- [ ] **CMake**: Can configure and build projects
-- [ ] **Libraries**: Can link and use external libraries
-- [ ] **File Operations**: Can read/write files in container
-- [ ] **Memory Tools**: Valgrind and sanitizers work
+## Need Help?
+1. Check the troubleshooting guide for your issue
+2. Visit office hours for setup assistance
+3. Post in the course discussion forum
 
 ---
 
-## 🎓 Professional Development Notes
-
-### **Why This Setup?**
-- **Industry Standard**: Docker + Git workflow used in professional development
-- **Consistency**: Same environment for all students regardless of platform
-- **Scalability**: Setup supports complex projects and team collaboration
-- **Learning**: Prepares students for professional development practices
-
-### **Skills You'll Gain**
-- **Containerization**: Docker for consistent development environments
-- **Professional IDEs**: Advanced debugging and development techniques
-- **Version Control**: Industry-standard Git workflows
-- **Build Systems**: Modern C++ project management with CMake
-- **Testing**: Professional testing practices and frameworks
-
----
-
-## 🧭 Navigation
-
-**🏠 [Course Home](../README.md)** | **📚 [All Chapters](../chapters/)** | **🎯 [Project](../project/)**
-
-**🚀 Ready to set up?** Start with **[DEVELOPMENT_SETUP.md](DEVELOPMENT_SETUP.md)** now!
-
----
-
-*Professional development starts with professional tools. This setup will serve you throughout your C++ journey and beyond.*
+**Ready to begin?** → Start with **[DEVELOPMENT_SETUP.md](DEVELOPMENT_SETUP.md)**
