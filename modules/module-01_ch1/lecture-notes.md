@@ -33,7 +33,7 @@ After completing the textbook reading and this chapter's materials, you will:
 
 **⚠️ Important**: Before starting this chapter, complete the one-time development environment setup.
 
-**📋 Setup Guide**: Follow the comprehensive setup instructions in [DEVELOPMENT_SETUP.md](../../setup/DEVELOPMENT_SETUP.md)
+**📋 Setup Guide**: Follow the comprehensive setup instructions in [DEVELOPMENT_SETUP.md](DEVELOPMENT_SETUP.md)
 
 This setup guide provides:
 - VS Code installation and configuration
