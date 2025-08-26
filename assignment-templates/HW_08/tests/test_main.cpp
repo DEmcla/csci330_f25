@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Running HW_02 Tests...\n";
+    std::cout << "Running HW_08 Tests...\n";
     std::cout << "======================\n";
     std::cout << "✓ Program compiles successfully\n";
     std::cout << "✓ Basic structure test passed\n";

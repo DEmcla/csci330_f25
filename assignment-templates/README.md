@@ -7,18 +7,32 @@ This folder contains **starter code templates** for each assignment. Students co
 
 ```
 assignment-templates/
-├── HW_01/                 # Week 1 Assignment Template
-│   ├── CMakeLists.txt     # Build configuration
-│   ├── src/               # Source code directory
-│   │   ├── main.cpp       # Starter code with TODOs
-│   │   └── CMakeLists.txt
-│   ├── tests/             # Unit tests
-│   │   ├── test_main.cpp  # Test cases for your code
-│   │   └── CMakeLists.txt
-│   ├── include/           # Header files (if needed)
-│   └── docs/              # Documentation
-├── HW_02/                 # Week 2 Assignment Template
-└── ...                    # Additional assignments as released
+├── HW_01/                 # Introduction to C++
+├── HW_02/                 # Hello World and Basic I/O
+├── HW_03/                 # Vectors and Control Structures
+├── HW_04/                 # Functions and String Manipulation
+├── HW_05/                 # File I/O and Data Processing
+├── HW_06/                 # Object-Oriented Programming - Classes
+├── HW_07/                 # Algorithm Analysis - Sorting Algorithms
+├── HW_08/                 # Stacks and Queues
+├── HW_09/                 # Linked Lists
+├── HW_11/                 # Binary Search Trees
+├── HW_12/                 # Hash Tables
+├── HW_13/                 # Graph Algorithms
+├── HW_14/                 # Advanced Sorting
+└── HW_15/                 # Dynamic Programming
+
+Each template contains:
+├── CMakeLists.txt         # Build configuration
+├── README.md              # Assignment description and objectives
+├── src/                   # Source code directory
+│   ├── main.cpp           # Starter code with TODOs
+│   └── CMakeLists.txt
+├── tests/                 # Unit tests
+│   ├── test_main.cpp      # Test cases for your code
+│   └── CMakeLists.txt
+├── include/               # Header files (if needed)
+└── docs/                  # Documentation
 ```
 
 ## 📝 How to Use These Templates
