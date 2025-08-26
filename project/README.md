@@ -219,7 +219,7 @@ The semester project is your opportunity to apply everything you learn in a subs
 
 ## 🧭 Navigation
 
-**🏠 [Course Home](../README.md)** | **📚 [All Chapters](../chapters/)** | **📝 [Assignments](../assignments/)**
+**🏠 [Course Home](../README.md)** | **📚 [All Modules](../modules/)** | **📝 [Assignments](../assignments/)**
 
 **🚀 Ready to start?** Begin with the **[Brainstorming Guide](brainstorming-guide.md)** to find your perfect project!
 
