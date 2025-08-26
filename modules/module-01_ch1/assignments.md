@@ -185,21 +185,29 @@ Make sure all outputs are correct!
 
 ---
 
-## Submission Guidelines
+## 📝 Assignment Submission
 
-**For each problem set**:
-1. Include source code with basic comments
-2. Show compilation method used:
-   - **Docker/CLI**: Include the `g++` command
-   - **VS Code**: Mention "Built with VS Code (Ctrl+Shift+B)"
-   - **CMake**: Include `cmake` and `make` commands
-3. Provide sample output
-4. Note any challenges you faced
-5. Include workflow used (Docker, VS Code + Docker, or Local)
+### Quick Start
+1. **Get the template**: Copy from `assignment-templates/HW_01/`
+2. **Complete the problems**: Follow the detailed structure above
+3. **Submit via Git**: Create Pull Request with your solutions
 
-**File organization**:
+### Detailed Workflow
+
+#### Step 1: Set Up Your Assignment Directory
+```bash
+# Copy template to your personal directory
+mkdir -p assignments/CSCI330_FirstName_LastName/week01
+cp -r assignment-templates/HW_01/* assignments/CSCI330_FirstName_LastName/week01/
+
+# Navigate to your assignment directory
+cd assignments/CSCI330_FirstName_LastName/week01
 ```
-chapter01_solutions/
+
+#### Step 2: Complete All Problem Sets
+Organize your solutions following this structure:
+```
+assignments/CSCI330_FirstName_LastName/week01/
 ├── problem_set_1/
 │   ├── problem_1_1.cpp
 │   ├── problem_1_2.cpp
@@ -212,7 +220,52 @@ chapter01_solutions/
 │   ├── problem_3_1.cpp
 │   ├── problem_3_2.cpp
 │   └── problem_3_3.cpp
-└── README.md (with compilation notes)
+└── README.md (with compilation notes and outputs)
 ```
 
-**Expected time commitment**: 2.25 hours total for all problem sets. If you're taking longer, ask for help!
+**For each solution include**:
+- Source code with basic comments
+- Compilation method used (g++, VS Code, CMake)
+- Sample output showing the program works
+- Any challenges you faced
+
+#### Step 3: Submit via Pull Request
+```bash
+# Create and switch to feature branch
+git checkout -b week01-submission
+
+# Add your completed work
+git add assignments/CSCI330_FirstName_LastName/week01/
+git commit -m "Complete HW_01: Chapter 1 Problem Sets
+
+- Implemented all problem sets (1.1-3.3)
+- Added comprehensive README with compilation notes
+- Tested all solutions with sample outputs"
+
+# Push branch and create PR
+git push -u origin week01-submission
+```
+
+#### Step 4: Canvas Submission
+**🎯 REQUIRED**: Submit your Pull Request link to Canvas in this format:
+```
+https://github.com/YourUsername/csci330_f25/pull/[PR_NUMBER]
+```
+
+**Example**: `https://github.com/jsmith/csci330_f25/pull/1`
+
+### Assessment Criteria
+- [ ] All 9 problems completed with working solutions
+- [ ] Proper file organization following naming convention
+- [ ] Clear README with compilation notes and sample outputs  
+- [ ] Code compiles without errors and warnings
+- [ ] Professional Git workflow (meaningful commits, clean PR)
+- [ ] Canvas submission includes correct PR link
+
+### Time Expectation
+**Total: 2.25 hours** for all problem sets. If taking significantly longer, ask for help during office hours!
+
+### Need Help?
+- 📋 **Assignment template**: `/assignment-templates/HW_01/`
+- 🔄 **Workflow guide**: `/ASSIGNMENT_WORKFLOW.md`
+- 🆘 **Git help**: `/reference/git-commands.md`
