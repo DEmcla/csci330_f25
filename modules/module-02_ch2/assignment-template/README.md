@@ -55,4 +55,4 @@ make test
 ## Time Allocation
 - **Type Explorer**: 90 minutes
 - **Student Manager**: 90 minutes
-- **Total**: 3 hours (matches assignments.md specification)
+- **Total**: 3 hours

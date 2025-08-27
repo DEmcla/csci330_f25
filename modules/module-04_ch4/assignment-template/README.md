@@ -50,4 +50,4 @@ make test
 ## Time Allocation
 - **Banking System**: 2 hours
 - **Resource Manager**: 2 hours
-- **Total**: 4 hours (matches assignments.md specification)
+- **Total**: 4 hours

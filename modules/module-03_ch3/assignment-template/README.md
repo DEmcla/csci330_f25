@@ -52,4 +52,4 @@ make test
 - **Problem Set 1**: 45 minutes
 - **Problem Set 2**: 45 minutes  
 - **Problem Set 3**: 45 minutes
-- **Total**: 2.25 hours (matches assignments.md specification)
+- **Total**: 2.25 hours
