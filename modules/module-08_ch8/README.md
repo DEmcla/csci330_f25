@@ -47,7 +47,7 @@ Before moving to the next chapter, ensure you can:
 
 ## 🧭 Navigation
 
-**⬅️ Previous**: [Chapter 07: Expressions](../chapter-07/) | **➡️ Next**: [Chapter 09: Functions](../chapter-09/)
+**⬅️ Previous**: [Chapter 07: Expressions](../module-07_ch7/) | **➡️ Next**: [Chapter 09: Functions](../module-09_ch9/)
 
 **🏠 Course Home**: [Main README](../../README.md) | **📚 All Chapters**: [Course Chapters](../)
 

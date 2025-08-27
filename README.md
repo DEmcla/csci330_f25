@@ -41,11 +41,11 @@ All students complete these 14 modules:
 | **07** | Expressions | [modules/module-07_ch7/](modules/module-07_ch7/) | Operators, operator overloading |
 | **08** | Statements | [modules/module-08_ch8/](modules/module-08_ch8/) | Control flow, exceptions |
 | **09** | Functions | [modules/module-09_ch9/](modules/module-09_ch9/) | Lambdas, function objects |
-| **11** | Smart Pointers | [modules/module-11_ch11/](modules/module-11_ch11/) | Modern memory management |
-| **12** | Utilities | [modules/module-12_ch12/](modules/module-12_ch12/) | Standard library utilities |
-| **13** | Containers | [modules/module-13_ch13/](modules/module-13_ch13/) | STL containers |
-| **14** | Iterators | [modules/module-14_ch14/](modules/module-14_ch14/) | Iterator patterns |
-| **15** | Strings | [modules/module-15_ch15/](modules/module-15_ch15/) | Text processing |
+| **11** | Smart Pointers | [modules/module-10_ch11/](modules/module-10_ch11/) | Modern memory management |
+| **12** | Utilities | [modules/module-11_ch12/](modules/module-11_ch12/) | Standard library utilities |
+| **13** | Containers | [modules/module-12_ch13/](modules/module-12_ch13/) | STL containers |
+| **14** | Iterators | [modules/module-13_ch14/](modules/module-13_ch14/) | Iterator patterns |
+| **15** | Strings | [modules/module-14_ch15/](modules/module-14_ch15/) | Text processing |
 
 ### **Supplemental Chapters (Optional)**
 Choose based on time and interest:

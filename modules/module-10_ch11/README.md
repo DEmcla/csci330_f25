@@ -1,10 +1,10 @@
-# Chapter 05: Runtime Polymorphism
+# Chapter 11: Smart Pointers
 
-**🎯 Learning Goal**: Implement virtual functions and inheritance effectively.
+**🎯 Learning Goal**: Modern C++ memory management with smart pointers and RAII principles.
 
 ## 📚 Before You Begin
 
-**📖 MANDATORY**: Read **Chapter 05** in "C++ Crash Course" by Josh Lospinoso first. The textbook provides essential conceptual foundation that course materials build upon.
+**📖 MANDATORY**: Read **Chapter 11** in "C++ Crash Course" by Josh Lospinoso first. The textbook provides essential conceptual foundation that course materials build upon.
 
 ---
 
@@ -16,7 +16,7 @@
 3. **🔧 [Quick Help](quick-help.md)** - Troubleshooting and common solutions
 
 ### **Reference Materials**
-- **📖 Textbook Chapter 05**: "Runtime Polymorphism"
+- **📖 Textbook Chapter 11**: "Smart Pointers"
 - **🛠️ [Setup Guide](../../setup/DEVELOPMENT_SETUP.md)**: Environment troubleshooting
 - **📋 [Assignment Template](assignment-template/)**: Starting code structures
 
@@ -47,7 +47,7 @@ Before moving to the next chapter, ensure you can:
 
 ## 🧭 Navigation
 
-**⬅️ Previous**: [Chapter 04: Object Lifecycle](../module-04_ch4/) | **➡️ Next**: [Chapter 06: Compile-Time Polymorphism](../module-06_ch6/)
+**⬅️ Previous**: [Chapter 09: Functions](../module-09_ch9/) | **➡️ Next**: [Chapter 12: Utilities](../module-11_ch12/)
 
 **🏠 Course Home**: [Main README](../../README.md) | **📚 All Chapters**: [Course Chapters](../)
 
@@ -65,4 +65,4 @@ Before moving to the next chapter, ensure you can:
 
 ---
 
-*Chapter 05 continues building your C++ expertise. Focus on understanding core principles and their practical applications.*
+*Chapter 11 introduces modern C++ memory management. Focus on understanding RAII principles and smart pointer usage patterns.*

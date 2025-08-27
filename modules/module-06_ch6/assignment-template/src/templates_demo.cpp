@@ -6,6 +6,7 @@
 #include <iostream>
 #include <typeinfo>
 #include <string>
+#include <cstring>
 
 // ============================================================================
 // PROBLEM SET 1: Function Templates (45 minutes)

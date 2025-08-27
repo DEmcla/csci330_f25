@@ -47,7 +47,7 @@ Before moving to the next chapter, ensure you can:
 
 ## 🧭 Navigation
 
-**⬅️ Previous**: [Chapter 06: Compile-Time Polymorphism](../chapter-06/) | **➡️ Next**: [Chapter 08: Statements](../chapter-08/)
+**⬅️ Previous**: [Chapter 06: Compile-Time Polymorphism](../module-06_ch6/) | **➡️ Next**: [Chapter 08: Statements](../module-08_ch8/)
 
 **🏠 Course Home**: [Main README](../../README.md) | **📚 All Chapters**: [Course Chapters](../)
 

@@ -47,7 +47,7 @@ Before moving to the next chapter, ensure you can:
 
 ## 🧭 Navigation
 
-**⬅️ Previous**: [Chapter 08: Statements](../chapter-08/) | **➡️ Next**: [Chapter 11: Smart Pointers](../chapter-11/)
+**⬅️ Previous**: [Chapter 08: Statements](../module-08_ch8/) | **➡️ Next**: [Chapter 11: Smart Pointers](../module-10_ch11/)
 
 **🏠 Course Home**: [Main README](../../README.md) | **📚 All Chapters**: [Course Chapters](../)
 

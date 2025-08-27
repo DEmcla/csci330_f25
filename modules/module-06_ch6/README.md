@@ -47,7 +47,7 @@ Before moving to the next chapter, ensure you can:
 
 ## 🧭 Navigation
 
-**⬅️ Previous**: [Chapter 05: Runtime Polymorphism](../chapter-05/) | **➡️ Next**: [Chapter 07: Expressions](../chapter-07/)
+**⬅️ Previous**: [Chapter 05: Runtime Polymorphism](../module-05_ch5/) | **➡️ Next**: [Chapter 07: Expressions](../module-07_ch7/)
 
 **🏠 Course Home**: [Main README](../../README.md) | **📚 All Chapters**: [Course Chapters](../)
 

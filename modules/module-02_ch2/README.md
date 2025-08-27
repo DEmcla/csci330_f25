@@ -49,7 +49,7 @@ Before moving to the next chapter, ensure you can:
 
 ## 🧭 Navigation
 
-**⬅️ Previous**: [Chapter 01: ](../chapter-01/) | **➡️ Next**: [Chapter 03: References](../chapter-03/)
+**⬅️ Previous**: [Chapter 01: Getting Started](../module-01_ch1/) | **➡️ Next**: [Chapter 03: References](../module-03_ch3/)
 
 **🏠 Course Home**: [Main README](../../README.md) | **📚 All Chapters**: [Course Chapters](../)
 

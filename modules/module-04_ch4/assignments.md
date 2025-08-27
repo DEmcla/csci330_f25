@@ -9,13 +9,11 @@
 
 **🚫 Don't start these assignments until you've completed the textbook and lecture notes!**
 
-## ✨ Streamlined Assignment Structure  
-**New Approach**: 2 comprehensive projects instead of 9 micro-problems
-- **Core Assignment 1**: Banking System with RAII (2 hours) - REQUIRED
-- **Core Assignment 2**: Resource Management Framework (2 hours) - REQUIRED
-- **Challenge Exercises**: 5 advanced problems for deeper exploration - OPTIONAL
+## Problem Set Structure
 
-**Total Core Time**: 4 hours (vs previous 2.25 hours across 9 fragments, but with much deeper learning)
+- **Problem Set 1**: Constructor and Destructor Fundamentals (45 minutes)
+- **Problem Set 2**: RAII and Resource Management (60 minutes) 
+- **Problem Set 3**: Advanced Object Lifecycle (30 minutes)
 
 ---
 

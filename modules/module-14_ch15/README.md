@@ -1,10 +1,10 @@
-# Chapter 05: Runtime Polymorphism
+# Chapter 15: Strings
 
-**🎯 Learning Goal**: Implement virtual functions and inheritance effectively.
+**🎯 Learning Goal**: String manipulation, text processing, and performance optimization with string_view.
 
 ## 📚 Before You Begin
 
-**📖 MANDATORY**: Read **Chapter 05** in "C++ Crash Course" by Josh Lospinoso first. The textbook provides essential conceptual foundation that course materials build upon.
+**📖 MANDATORY**: Read **Chapter 15** in "C++ Crash Course" by Josh Lospinoso first. The textbook provides essential conceptual foundation that course materials build upon.
 
 ---
 
@@ -16,7 +16,7 @@
 3. **🔧 [Quick Help](quick-help.md)** - Troubleshooting and common solutions
 
 ### **Reference Materials**
-- **📖 Textbook Chapter 05**: "Runtime Polymorphism"
+- **📖 Textbook Chapter 15**: "Strings"
 - **🛠️ [Setup Guide](../../setup/DEVELOPMENT_SETUP.md)**: Environment troubleshooting
 - **📋 [Assignment Template](assignment-template/)**: Starting code structures
 
@@ -47,7 +47,7 @@ Before moving to the next chapter, ensure you can:
 
 ## 🧭 Navigation
 
-**⬅️ Previous**: [Chapter 04: Object Lifecycle](../module-04_ch4/) | **➡️ Next**: [Chapter 06: Compile-Time Polymorphism](../module-06_ch6/)
+**⬅️ Previous**: [Chapter 14: Iterators](../module-13_ch14/) | **➡️ Next**: [Semester Project](../../project/)
 
 **🏠 Course Home**: [Main README](../../README.md) | **📚 All Chapters**: [Course Chapters](../)
 
@@ -65,4 +65,4 @@ Before moving to the next chapter, ensure you can:
 
 ---
 
-*Chapter 05 continues building your C++ expertise. Focus on understanding core principles and their practical applications.*
+*Chapter 15 covers string processing and text manipulation. Focus on understanding performance optimization techniques and modern string handling.*

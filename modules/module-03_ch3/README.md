@@ -48,7 +48,7 @@ Before moving to the next chapter, ensure you can:
 
 ## 🧭 Navigation
 
-**⬅️ Previous**: [Chapter 02: Types and Memory](../chapter-02/) | **➡️ Next**: [Chapter 04: Object Lifecycle](../chapter-04/)
+**⬅️ Previous**: [Chapter 02: Types and Memory](../module-02_ch2/) | **➡️ Next**: [Chapter 04: Object Lifecycle](../module-04_ch4/)
 
 **🏠 Course Home**: [Main README](../../README.md) | **📚 All Chapters**: [Course Chapters](../)
 

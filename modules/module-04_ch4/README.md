@@ -47,7 +47,7 @@ Before moving to the next chapter, ensure you can:
 
 ## 🧭 Navigation
 
-**⬅️ Previous**: [Chapter 03: References](../chapter-03/) | **➡️ Next**: [Chapter 05: Runtime Polymorphism](../chapter-05/)
+**⬅️ Previous**: [Chapter 03: References](../module-03_ch3/) | **➡️ Next**: [Chapter 05: Runtime Polymorphism](../module-05_ch5/)
 
 **🏠 Course Home**: [Main README](../../README.md) | **📚 All Chapters**: [Course Chapters](../)
 

@@ -16,11 +16,11 @@
 
 ---
 
-## ✨ Streamlined Assignment Structure
-**New Approach**: 2 comprehensive assignments instead of 8 micro-problems
-- **Core Assignment 1**: Type System Exploration (90 minutes) - REQUIRED
-- **Core Assignment 2**: Memory and Data Structures (90 minutes) - REQUIRED  
-- **Challenge Exercises**: 6 additional problems for advanced students - OPTIONAL
+## Problem Set Structure
+
+- **Problem Set 1**: Type System and Fundamental Types (45 minutes)
+- **Problem Set 2**: Memory Management and Pointers (60 minutes) 
+- **Problem Set 3**: Advanced Memory Concepts (30 minutes)
 
 **Total Core Time**: 3 hours (vs previous 3.25 hours across 8 fragments)
 
