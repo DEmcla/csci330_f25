@@ -20,7 +20,7 @@
 ### **Reference Materials**
 - **📖 Textbook Chapter 02**: "Types and Memory"
 - **🛠️ [Setup Guide](../../setup/DEVELOPMENT_SETUP.md)**: Environment troubleshooting
-- **📋 [Assignment Templates](../../assignment-templates/)**: Starting code structures
+- **📋 [Assignment Template](assignment-template/)**: Starting code structures
 
 ---
 

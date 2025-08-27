@@ -19,7 +19,7 @@
 ### **Reference Materials**
 - **📖 Textbook Chapter 03**: "References"
 - **🛠️ [Setup Guide](../../setup/DEVELOPMENT_SETUP.md)**: Environment troubleshooting
-- **📋 [Assignment Templates](../../assignment-templates/)**: Starting code structures
+- **📋 [Assignment Template](assignment-template/)**: Starting code structures
 
 ---
 

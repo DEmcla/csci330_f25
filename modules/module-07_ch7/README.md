@@ -18,7 +18,7 @@
 ### **Reference Materials**
 - **📖 Textbook Chapter 07**: "Expressions"
 - **🛠️ [Setup Guide](../../setup/DEVELOPMENT_SETUP.md)**: Environment troubleshooting
-- **📋 [Assignment Templates](../../assignment-templates/)**: Starting code structures
+- **📋 [Assignment Template](assignment-template/)**: Starting code structures
 
 ---
 
