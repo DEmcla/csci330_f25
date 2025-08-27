@@ -8,6 +8,7 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <chrono>
 
 // ============================================================================
 // PROBLEM SET 1: RAII and Resource Management (45 minutes)
@@ -428,30 +429,13 @@ void problem_set_2_demo() {
 // ============================================================================
 
 // TODO 5: Circular reference problem and weak_ptr solution
-class Parent;
-class Child;
-
-class Parent {
-public:
-    std::string name;
-    std::vector<std::shared_ptr<Child>> children;
-    
-    Parent(const std::string& n) : name(n) {
-        printf("  Parent '%s' created\n", name.c_str());
-    }
-    
-    ~Parent() {
-        printf("  Parent '%s' destroyed\n", name.c_str());
-    }
-    
-    void add_child(std::shared_ptr<Child> child);
-    void display() const;
-};
+// Forward declarations
+class SafeParent;
 
 class Child {
 public:
     std::string name;
-    std::weak_ptr<Parent> parent;  // Use weak_ptr to break circular reference
+    std::weak_ptr<SafeParent> parent;  // Use weak_ptr to break circular reference
     
     Child(const std::string& n) : name(n) {
         printf("  Child '%s' created\n", name.c_str());
@@ -461,29 +445,10 @@ public:
         printf("  Child '%s' destroyed\n", name.c_str());
     }
     
-    void display() const {
-        printf("    Child '%s'", name.c_str());
-        if (auto p = parent.lock()) {  // Convert weak_ptr to shared_ptr
-            printf(" (parent: %s)\n", p->name.c_str());
-        } else {
-            printf(" (no parent)\n");
-        }
-    }
+    void display() const;  // Declaration only, definition after SafeParent
 };
 
-void Parent::add_child(std::shared_ptr<Child> child) {
-    children.push_back(child);
-    child->parent = shared_from_this();
-}
-
-void Parent::display() const {
-    printf("  Parent '%s' has %zu children:\n", name.c_str(), children.size());
-    for (const auto& child : children) {
-        child->display();
-    }
-}
-
-// Enable shared_from_this for Parent
+// Enable shared_from_this for SafeParent
 class SafeParent : public std::enable_shared_from_this<SafeParent> {
 public:
     std::string name;
@@ -509,6 +474,16 @@ public:
         }
     }
 };
+
+// Child::display() implementation after SafeParent is fully defined
+void Child::display() const {
+    printf("    Child '%s'", name.c_str());
+    if (auto p = parent.lock()) {  // Convert weak_ptr to shared_ptr
+        printf(" (parent: %s)\n", p->name.c_str());
+    } else {
+        printf(" (no parent)\n");
+    }
+}
 
 void weak_ptr_usage() {
     printf("=== weak_ptr - Breaking Circular References ===\n");
@@ -704,9 +679,9 @@ void performance_considerations() {
     auto shared_duration = std::chrono::duration_cast<std::chrono::microseconds>
         (end_shared - start_shared);
     
-    printf("  unique_ptr creation (%d iterations): %ld microseconds\n", 
+    printf("  unique_ptr creation (%d iterations): %lld microseconds\n", 
            iterations, unique_duration.count());
-    printf("  shared_ptr creation (%d iterations): %ld microseconds\n", 
+    printf("  shared_ptr creation (%d iterations): %lld microseconds\n", 
            iterations, shared_duration.count());
     
     printf("\n");
