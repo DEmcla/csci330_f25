@@ -1,31 +1,53 @@
-# HW_04: Functions and String Manipulation
+# HW_04: Object Lifecycle and RAII
 
 ## Overview
-This assignment emphasizes function design and advanced string processing techniques.
+This assignment explores constructors, destructors, and Resource Acquisition Is Initialization (RAII) as covered in Chapter 4 of "C++ Crash Course".
 
 ## Related Module
-📚 **[Module 03 - Chapter 3: Functions and Parameters](../../modules/module-03_ch3/)**
+📚 **[Module 04 - Chapter 4: Object Lifecycle](../)**
 
 ## Learning Objectives
-- Design and implement custom functions
-- Master string manipulation techniques
-- Understand function parameters and return values
-- Practice algorithm implementation
+- Master the C++ object lifecycle (construction, use, destruction)
+- Write constructors (default, parameterized, copy)
+- Implement destructors for resource cleanup
+- Apply RAII principles for automatic resource management
+- Understand the Rule of Three
+- Debug lifecycle issues with proper logging
 
 ## Assignment Tasks
-Complete the TODOs in `src/main.cpp`:
+Complete TWO comprehensive projects (4 hours total):
 
-1. **Function Design**: Create functions for vowel counting, string reversal, and palindrome checking
-2. **User Interaction**: Implement interactive string input
-3. **Algorithm Implementation**: Apply your functions to user data
-4. **Results Display**: Show processed results clearly
-5. **Bonus**: Implement title case conversion
+### Project 1: Banking System with RAII (2 hours)
+1. **Account Class**: Constructors, destructors, transaction logging
+2. **Resource Management**: Automatic file handle cleanup
+3. **Rule of Three**: Copy constructor and assignment operator
+4. **Lifecycle Tracking**: Log object creation and destruction
+
+### Project 2: Resource Management Framework (2 hours)
+1. **File Wrapper**: RAII for file handles
+2. **Memory Pool**: Custom memory management
+3. **Smart Resource**: Template for any resource type
+4. **Exception Safety**: Cleanup in all scenarios
 
 ## Building and Testing
 ```bash
 mkdir build && cd build
 cmake ..
 make
-./string_functions
+./banking_system      # Run project 1
+./resource_manager    # Run project 2
 make test
 ```
+
+## Grading Criteria
+- [ ] Both programs compile without warnings
+- [ ] Proper constructor/destructor implementation
+- [ ] RAII principles correctly applied
+- [ ] Rule of Three properly implemented
+- [ ] Resource cleanup verified (no leaks)
+- [ ] Lifecycle logging demonstrates understanding
+
+## Time Allocation
+- **Banking System**: 2 hours
+- **Resource Manager**: 2 hours
+- **Total**: 4 hours (matches assignments.md specification)

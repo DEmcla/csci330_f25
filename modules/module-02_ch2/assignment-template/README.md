@@ -1,32 +1,40 @@
-# HW_02: Hello World and Basic I/O
+# HW_02: Types and Memory
 
 ## Overview
-This assignment introduces you to basic C++ programming concepts including output streams, input handling, and string manipulation.
+This assignment explores C++ fundamental types, arrays, structs, and basic pointer operations as covered in Chapter 2 of "C++ Crash Course".
 
 ## Related Module
-📚 **[Module 02 - Chapter 2: Control Structures](../)**
+📚 **[Module 02 - Chapter 2: Types](../)**
 
 ## Learning Objectives
-- Understand basic C++ program structure
-- Learn to use iostream for input/output operations
-- Practice string handling and user interaction
-- Explore basic program flow and execution
+- Master fundamental C++ types and their sizes
+- Understand type conversions (implicit and explicit)
+- Work with arrays and demonstrate safe indexing
+- Create and use structs to group data
+- Explore basic pointer operations and memory addresses
 
 ## Assignment Tasks
-Complete the TODOs in `src/main.cpp`:
+Complete TWO comprehensive programs (3 hours total):
 
-1. **Basic Output**: Print "Hello, World!" to the console
-2. **User Input**: Prompt the user for their name
-3. **String Handling**: Read and store the user's name
-4. **Personalized Output**: Greet the user by name
-5. **Bonus**: Display the current date
+### Program 1: Type Explorer (90 minutes)
+1. **Type Analysis**: Display sizes and ranges of fundamental types
+2. **Type Conversions**: Demonstrate implicit/explicit conversions
+3. **Practical Application**: Multi-unit converter (temperature, distance)
+4. **Memory Behavior**: Show initialization and scope differences
+
+### Program 2: Student Manager (90 minutes)
+1. **Struct Design**: Create Student struct with multiple fields
+2. **Array Operations**: Manage array of students with grades
+3. **Pointer Arithmetic**: Process arrays using pointers
+4. **Statistics**: Calculate averages and find min/max
 
 ## Building and Testing
 ```bash
 mkdir build && cd build
 cmake ..
 make
-./hello_world
+./type_explorer    # Run first program
+./student_manager  # Run second program
 make test
 ```
 
@@ -37,8 +45,14 @@ make test
 4. Follow the naming convention: `CSCI330_FirstName_LastName`
 
 ## Grading Criteria
-- [ ] Program compiles successfully
-- [ ] Correct output format
-- [ ] Proper user input handling
-- [ ] Code follows best practices
+- [ ] Both programs compile without warnings
+- [ ] Demonstrates understanding of all fundamental types
+- [ ] Correct use of arrays and bounds checking
+- [ ] Proper struct implementation
+- [ ] Basic pointer operations work correctly
 - [ ] All tests pass
+
+## Time Allocation
+- **Type Explorer**: 90 minutes
+- **Student Manager**: 90 minutes
+- **Total**: 3 hours (matches assignments.md specification)

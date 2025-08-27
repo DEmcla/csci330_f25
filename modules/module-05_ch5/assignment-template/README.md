@@ -1,31 +1,55 @@
-# HW_05: File I/O and Data Processing
+# HW_05: Runtime Polymorphism
 
 ## Overview
-This assignment introduces file handling operations and statistical data analysis.
+This assignment explores inheritance, virtual functions, and runtime polymorphism as covered in Chapter 5 of "C++ Crash Course".
 
 ## Related Module
-📚 **[Module 04 - Chapter 4: File I/O and Error Handling](../../modules/module-04_ch4/)**
+📚 **[Module 05 - Chapter 5: Runtime Polymorphism](../)**
 
 ## Learning Objectives
-- Master file input/output operations
-- Implement statistical calculations
-- Practice data validation and error handling
-- Create formatted reports
+- Create polymorphic class hierarchies using virtual functions
+- Implement abstract base classes with pure virtual functions
+- Use the override keyword for safe function overriding
+- Apply polymorphism through base class pointers and references
+- Design flexible systems using runtime polymorphism
 
 ## Assignment Tasks
-Complete the TODOs in `src/main.cpp`:
+Complete THREE problem sets (2.25 hours total):
 
-1. **File Reading**: Read numerical grades from input file
-2. **Statistical Analysis**: Calculate averages, min/max values
-3. **Data Processing**: Implement robust data handling
-4. **Report Generation**: Create formatted output files
-5. **Bonus**: Generate grade distribution analysis
+### Problem Set 1: Basic Inheritance (45 minutes)
+1. **Animal Hierarchy**: Base Animal class with virtual functions
+2. **Shape System**: Abstract Shape with Circle, Rectangle, Triangle
+3. **Virtual Destructors**: Proper cleanup in hierarchies
+
+### Problem Set 2: Advanced Polymorphism (45 minutes)
+1. **Game Characters**: RPG character system with abilities
+2. **UI Components**: Button, TextBox, Slider with events
+3. **Plugin System**: Dynamic loading of behaviors
+
+### Problem Set 3: Practical Applications (45 minutes)
+1. **Employee Management**: Different employee types with salary calculation
+2. **Drawing Application**: Polymorphic shapes with rendering
+3. **Command Pattern**: Undo/redo with virtual execute()
 
 ## Building and Testing
 ```bash
 mkdir build && cd build
 cmake ..
 make
-./file_processor
+./polymorphism_demo
 make test
 ```
+
+## Grading Criteria
+- [ ] Program compiles without warnings
+- [ ] Virtual functions correctly implemented
+- [ ] Proper use of override keyword
+- [ ] Abstract base classes work correctly
+- [ ] Polymorphic behavior demonstrated
+- [ ] Virtual destructors prevent memory leaks
+
+## Time Allocation
+- **Problem Set 1**: 45 minutes
+- **Problem Set 2**: 45 minutes
+- **Problem Set 3**: 45 minutes
+- **Total**: 2.25 hours
