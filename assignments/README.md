@@ -2,13 +2,6 @@
 
 This directory contains student assignment submissions using a professional Git workflow with Pull Requests.
 
-## 📁 Related Directories
-
-- **`/modules/module-XX_chX/assignment-template/`** - Starter code for each assignment (copy from here)
-- **`/assignments/`** - Student submissions (your work goes here)
-- **`/setup/test_integration.sh`** - Test your development environment
-- **See also**: Each module's `assignments.md` for specific requirements
-
 ## Directory Structure
 
 Each student creates their own directory following this naming pattern:
@@ -70,20 +63,10 @@ For each assignment, follow these steps:
 3. **Complete Your Work**
    - Copy assignment template to your directory:
      ```bash
-     # IMPORTANT: Replace FirstName_LastName with your actual name
-     cp -r modules/module-01_ch1/assignment-template/* assignments/CSCI330_FirstName_LastName/week01/
+     cp -r assignment-templates/HW_01/* assignments/CSCI330_FirstName_LastName/week01/
      ```
-   - Navigate to your working directory:
-     ```bash
-     cd assignments/CSCI330_FirstName_LastName/week01/
-     ```
-   - Implement your solution (complete the TODOs in the source files)
-   - Build and test your code:
-     ```bash
-     mkdir build && cd build
-     cmake .. && make
-     ./tests/test_main  # Run the tests
-     ```
+   - Implement your solution
+   - Test thoroughly
    - Commit regularly with meaningful messages
 
 4. **Submit Pull Request**
