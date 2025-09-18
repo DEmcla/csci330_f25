@@ -1,0 +1,2 @@
+/home/student/workspace/assignments/CSCI330_Owen_Vareschi/week03/CMakeFiles/edit_cache.dir
+/home/student/workspace/assignments/CSCI330_Owen_Vareschi/week03/CMakeFiles/rebuild_cache.dir
